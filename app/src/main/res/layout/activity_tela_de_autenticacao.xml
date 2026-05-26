@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logotipo"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tela de Login"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#6A1B9A"
+            android:layout_marginBottom="35dp"/>
+
+        <EditText
+            android:id="@+id/edLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuário"
+            android:inputType="text"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="18dp"/>
+
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:padding="14dp"
+            android:textSize="16sp"
+            android:background="@android:drawable/edit_text"
+            android:layout_marginBottom="28dp"/>
+
+        <Button
+            android:id="@+id/btLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Entrar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#8E24AA"
+            android:padding="14dp"/>
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text= "Voltar"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#7B1FA2"
+            android:padding="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bem-vindo ao sistema"
+            android:textSize="14sp"
+            android:textColor="#7B1FA2"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
