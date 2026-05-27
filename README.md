@@ -266,29 +266,44 @@ Navegação fácil.
 
 🧠 Conceitos Trabalhados
 
-Durante o desenvolvimento foram utilizados conceitos de:
+##Durante o desenvolvimento foram utilizados conceitos de:
 
 Programação Orientada a Objetos;
+
 SQLite;
+
 CRUD;
+
 Android Studio;
+
 XML;
+
 Activities;
+
 Intents;
+
 Menus;
+
 ListView;
+
 Persistência de Dados.
 
 ✅ Resultado Esperado
 
-O aplicativo deverá:
+##O aplicativo deverá:
 
 Cadastrar contatos;
+
 Salvar no banco SQLite;
+
 Listar os dados;
+
 Pesquisar contatos;
+
 Atualizar registros;
+
 Excluir registros;
+
 Funcionar corretamente em emuladores e dispositivos Android.
 
 👨‍💻 Desenvolvedora
