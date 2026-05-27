@@ -191,44 +191,79 @@ ListarPessoasActitivity
 Adicionar no arquivo build.gradle:
 
 implementation 'androidx.appcompat:appcompat:1.6.1'
+
 implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
 ▶️ Como Executar o Projeto
+
 Abrir o Android Studio;
+
 Selecionar “Open Project”;
+
 Abrir a pasta do AppAgenda;
+
 Esperar sincronizar o Gradle;
+
 Executar no:
+
 Emulador Android;
+
 Ou celular físico.
+
 📱 Como Utilizar
-Cadastro
+
+##Cadastro:
+
 Digite:
+
 Nome;
+
 CPF;
+
 Telefone;
+
 Clique em Salvar.
-Pesquisa
+
+##Pesquisa:
+
 Clique na lupa;
+
 Digite o nome desejado;
+
 O sistema filtrará automaticamente.
-Atualização
+
+##Atualização:
+
 Pressione e segure um item da lista;
+
 Clique em Atualizar;
+
 Edite os dados;
+
 Salve novamente.
-Exclusão
+
+##Exclusão:
+
 Pressione e segure um item;
+
 Clique em Excluir;
+
 Confirme a exclusão.
+
 🖼️ Interface do Aplicativo
 
-O aplicativo possui:
+##O aplicativo possui:
 
 Layout simples e intuitivo;
+
 Menus interativos;
+
 Pesquisa dinâmica;
+
 Organização visual dos dados;
+
 Navegação fácil.
+
 🧠 Conceitos Trabalhados
 
 Durante o desenvolvimento foram utilizados conceitos de:
