@@ -6,10 +6,15 @@ O AppAgenda é um aplicativo Android desenvolvido em Java no Android Studio com 
 O sistema permite:
 
 Cadastrar pessoas;
+
 Armazenar nome, CPF e telefone;
+
 Listar registros;
+
 Pesquisar contatos;
+
 Atualizar informações;
+
 Excluir registros.
 
 O projeto foi desenvolvido utilizando conceitos de CRUD (Create, Read, Update e Delete) juntamente com menus, ListView e persistência de dados com SQLite.
@@ -19,34 +24,55 @@ O projeto foi desenvolvido utilizando conceitos de CRUD (Create, Read, Update e 
 Criar uma aplicação mobile simples e funcional para gerenciamento de contatos utilizando banco de dados interno no Android.
 
 🛠️ Tecnologias Utilizadas
+
 Java
+
 Android Studio
+
 XML
+
 SQLite
+
 Android SDK
+
 AppCompat
+
 ConstraintLayout
+
 📂 Estrutura do Projeto
 
 O projeto é composto pelas seguintes classes e arquivos:
 
 Arquivo	Função
+
 MainActivity.java	Tela de cadastro
+
 ListarPessoasActitivity.java	Tela de listagem e pesquisa
+
 Pessoa.java	Classe entidade
+
 PessoaDAO.java	Classe CRUD
+
 Conexao.java	Conexão com SQLite
+
 activity_main.xml	Layout principal
+
 activity_listar_pessoa_activity.xml	Layout da listagem
+
 menu_principal.xml	Menu superior
+
 menu_contexto.xml	Menu de contexto
+
 📱 Funcionalidades
+
 ✅ Cadastro de Pessoas
 
 O usuário pode inserir:
 
 Nome;
+
 CPF;
+
 Telefone.
 
 Os dados são armazenados no banco SQLite.
@@ -66,7 +92,9 @@ A pesquisa é realizada em tempo real.
 Ao selecionar um item da lista:
 
 O usuário pode editar os dados cadastrados;
+
 Os dados são atualizados no banco.
+
 ✅ Exclusão de Dados
 
 O usuário pode remover registros através do menu de contexto.
@@ -86,30 +114,55 @@ pessoa
 Campos:
 
 Campo	Tipo
+
 id	Integer
+
 nome	Varchar
+
 cpf	Varchar
+
 telefone	Varchar
+
 📐 CRUD Implementado
+
 Create – Inserir
+
 dao.inserir(pessoa);
+
 Read – Consultar
+
 dao.obterTodos();
+
 Update – Atualizar
+
 dao.atualizar(pessoa);
+
 Delete – Excluir
+
 dao.excluir(pessoa);
+
 🧩 Componentes Utilizados
+
 Layout Principal
+
 EditText
+
 Button
+
 Tela de Listagem
+
 ListView
+
 Menus
+
 Menu principal
+
 Menu de contexto
+
 SearchView
+
 📋 Menus do Sistema
+
 menu_principal.xml
 
 Contém:
@@ -122,6 +175,7 @@ Contém:
 
 Excluir;
 Atualizar.
+
 ⚙️ Configuração do Manifest
 
 O projeto utiliza:
